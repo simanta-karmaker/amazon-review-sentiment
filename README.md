@@ -11,8 +11,7 @@ AI & Machine Learning module (BDA25706) · MSc Business & Data Analytics · Rave
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simanta-karmaker/amazon-review-sentiment/blob/main/notebooks/sentiment_analysis_bilstm.ipynb)
 
 <p align="center">
-  <img src="figures/roc_comparison.png" width="49%" alt="ROC curves for the BiLSTM and the TF-IDF Random Forest on the same test reviews">
-  <img src="figures/confusion_matrix_comparison.png" width="49%" alt="Confusion matrices for both models on the same test reviews">
+  <img src="figures/confusion_matrix_comparison.png" width="90%" alt="Confusion matrices for the TF-IDF Random Forest and the BiLSTM on the same 10,000 test reviews">
 </p>
 
 ## Overview
@@ -37,7 +36,10 @@ The data are 100,000 reviews (50,000 positive, 50,000 negative) sampled from the
 | Bidirectional LSTM | **90.0%** | **0.900** | **0.966** | **0.966** |
 
 <p align="center">
-  <img src="figures/training_history.png" width="80%" alt="Training and validation accuracy and loss by epoch">
+  <img src="figures/roc_comparison.png" width="55%" alt="ROC curves for the BiLSTM and the TF-IDF Random Forest on the same test reviews">
+</p>
+<p align="center">
+  <img src="figures/training_history.png" width="90%" alt="Training and validation accuracy and loss by epoch, with the best epoch marked">
 </p>
 
 ## Approach
