@@ -1,0 +1,30 @@
+{
+  "sample_size_total": 100000,
+  "split": {
+    "train": 80000,
+    "validation": 10000,
+    "test": 10000
+  },
+  "settings": {
+    "max_vocab_size": 25000,
+    "max_sequence_length": 150,
+    "embedding_dim": 128,
+    "batch_size": 256,
+    "seed": 42
+  },
+  "bilstm": {
+    "accuracy": 0.8998000025749207,
+    "f1_weighted": 0.8997213815631454,
+    "roc_auc": 0.9663550399999999,
+    "pr_auc": 0.9655577243579833,
+    "best_epoch": 2,
+    "training_minutes": 21.2
+  },
+  "random_forest_tfidf": {
+    "accuracy": 0.8677,
+    "f1_weighted": 0.8676977759996145,
+    "roc_auc": 0.9418575599999999,
+    "pr_auc": 0.9422013130579552,
+    "training_seconds": 417.5
+  }
+}

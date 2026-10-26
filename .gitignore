@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data and trained artefacts are not committed
+data/
+*.csv
+*.tgz
+*.keras
+tokenizer.json
+
+# OS files
+.DS_Store
+Thumbs.db

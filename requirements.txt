@@ -1,0 +1,10 @@
+# Python packages for notebooks/sentiment_analysis_bilstm.ipynb
+# (Google Colab already includes all of these except kagglehub and wordcloud)
+tensorflow>=2.16
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+wordcloud>=1.9
+kagglehub>=0.3
